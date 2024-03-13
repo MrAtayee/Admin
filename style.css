@@ -1,0 +1,52 @@
+
+
+body{
+    background-color: blue;
+    direction: rtl;
+}
+
+.container{
+    width: 300px;
+    background-color: white;
+    margin: 100px  auto;
+    padding: 50px;
+    border-radius: 3px;
+}
+
+.container h1{
+    margin-top: -30px;
+    color: blue;
+}
+
+.container input{
+  width: 100%;
+  border-radius: 3px;
+  border: none;
+  background-color: #e3e3e3;
+  padding: 10px;
+  outline: none;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+.container .submit{
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+}
+
+.container .visible {
+    width: 20px;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+     display: none;
+}
+.container .pass-input{
+    position: relative;
+}
+
+.container .visible:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
